@@ -1,0 +1,6 @@
+[
+    {
+        "key": "alt+a",
+        "command": "code-runner.run"
+    }
+]

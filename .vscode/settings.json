@@ -1,0 +1,14 @@
+{
+  "code-runner.executorMap": {
+    "cpp": "g++ $fullFileName -o $fileNameWithoutExt && Get-Content input.txt | .\\$fileNameWithoutExt > output.txt && del $fileNameWithoutExt.exe",
+    "c": "gcc $fullFileName -o $fileNameWithoutExt && Get-Content input.txt | .\\$fileNameWithoutExt > output.txt && del $fileNameWithoutExt.exe",
+    "python": "Get-Content input.txt | python $fullFileName > output.txt",
+    
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "files.associations": {
+    "ostream": "cpp",
+    "iostream": "cpp"
+  }
+}

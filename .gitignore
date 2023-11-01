@@ -1,0 +1,5 @@
+*.exe
+!run.exe
+build
+run.spec
+dist
